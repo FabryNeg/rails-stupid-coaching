@@ -1,0 +1,57 @@
+
+ $gray: #F4F4F4;
+
+ body {
+   background: $gray;
+   color: black;
+   font-size: 15px;
+ }
+#answer-form {
+  margin-left: 10px;
+  margin: auto;
+  width: 250px;
+}
+
+#question {
+  background: rgb(225,225,115);
+  border-left: 5px solid rgb(100,100,250);
+  padding: 3px;
+  margin-bottom: 6px;
+}
+
+#answer {
+  background: rgb(150,175,180);
+  border-left: 5px solid rgb(100,100,250);
+  padding: 3px;
+}
+
+ a {
+   color: grey;
+   &:hover {
+     color: black;
+     text-decoration: none;
+     text-align: center
+   }
+ }
+
+ h1 {
+  text-align: center
+ }
+
+ .label {
+  text-align: right;
+ }
+
+form {
+  margin:auto;
+  width: 400px;
+}
+
+ #ask {
+  width: 250px;
+  margin-left:40px;
+ }
+
+ p {
+  margin: 3px;
+ }
